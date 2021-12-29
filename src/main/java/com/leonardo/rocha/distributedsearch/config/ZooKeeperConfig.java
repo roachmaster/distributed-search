@@ -29,7 +29,7 @@ public class ZooKeeperConfig {
 
     @Bean
     public ServiceRegistry coordinatorsServiceRegistry(ZooKeeper zooKeeper){
-        return new ServiceRegistry(zooKeeper, ServiceRegistry.WORKERS_REGISTRY_ZNODE);
+        return new ServiceRegistry(zooKeeper, ServiceRegistry.COORDINATORS_REGISTRY_ZNODE);
     }
 
     @Bean
