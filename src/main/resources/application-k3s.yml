@@ -1,0 +1,8 @@
+zookeeper:
+  address: zk-cs.default
+  port: ${ZK_CS_SERVICE_PORT}
+
+management:
+  endpoint:
+    health:
+      show-details: always

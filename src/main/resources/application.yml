@@ -1,0 +1,8 @@
+zookeeper:
+  address: kube1
+  port: 30218
+  sessionTimeout: 3000
+  electionNamespace: /election
+  defaultPort: 8080
+server:
+  port: 8080
